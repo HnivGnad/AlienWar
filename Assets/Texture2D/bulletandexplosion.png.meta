@@ -1,0 +1,386 @@
+fileFormatVersion: 2
+guid: 388b6110612dbcf47be91e9f39295b6d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bulletandexplosion_0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 627
+        width: 668
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815cf79e199499643b0ea4a1949c0fa1
+      internalID: 779157287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulletandexplosion_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 464
+        width: 719
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c6edc99dfcc5a4495d78fa1f4f1984
+      internalID: 807871745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulletandexplosion_2
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 43
+        width: 226
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762032a437fc2a34bb5262e1ab7e9d25
+      internalID: -196040883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulletandexplosion_3
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 0
+        width: 295
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d4bec55a4445c459747feeb11f43ec
+      internalID: -123472077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulletandexplosion_4
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 76
+        width: 195
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b767645d1af7f884b82b0c5ec2d7832a
+      internalID: -401280507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulletandexplosion_5
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 79
+        width: 196
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109f719005c94fd4fb1c6cf23fa4df88
+      internalID: -2096057155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulletandexplosion_6
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 102
+        width: 206
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b475d40b1d67b744daa00c19b88b15a8
+      internalID: 1364930980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulletandexplosion_9
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 86
+        width: 156
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b537affdcc5ad924db539104c31d1b23
+      internalID: -1422929346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulletandexplosion_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 142
+        width: 46
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a03d613cadfc0499e5d38ad7ebb964
+      internalID: -1239685518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulletandexplosion_16
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 124
+        width: 93
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826e4f03a11aa3f45974078d3337b14e
+      internalID: 1857509568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ee80c8c81b625234caad95bc01ae3ea9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bulletandexplosion_0: 779157287
+      bulletandexplosion_1: 807871745
+      bulletandexplosion_10: 339930076
+      bulletandexplosion_11: -1145920225
+      bulletandexplosion_12: 1276220081
+      bulletandexplosion_13: 595001668
+      bulletandexplosion_14: -1212640508
+      bulletandexplosion_15: -1239685518
+      bulletandexplosion_16: 1857509568
+      bulletandexplosion_17: 813262072
+      bulletandexplosion_18: -1889101687
+      bulletandexplosion_19: 647849795
+      bulletandexplosion_2: -196040883
+      bulletandexplosion_20: 2089390882
+      bulletandexplosion_21: 760116417
+      bulletandexplosion_22: -274239370
+      bulletandexplosion_23: -1687104428
+      bulletandexplosion_24: 54940512
+      bulletandexplosion_25: -978168987
+      bulletandexplosion_26: -1081294497
+      bulletandexplosion_27: -1486794191
+      bulletandexplosion_28: 1700556286
+      bulletandexplosion_29: 2061232854
+      bulletandexplosion_3: -123472077
+      bulletandexplosion_30: -823139897
+      bulletandexplosion_31: -2138349973
+      bulletandexplosion_32: -1445888564
+      bulletandexplosion_33: 1428014754
+      bulletandexplosion_34: 827692422
+      bulletandexplosion_35: -1519854209
+      bulletandexplosion_36: 1010108885
+      bulletandexplosion_37: 1017628711
+      bulletandexplosion_38: 1252583103
+      bulletandexplosion_39: -60039909
+      bulletandexplosion_4: -401280507
+      bulletandexplosion_40: 1393217357
+      bulletandexplosion_5: -2096057155
+      bulletandexplosion_6: 1364930980
+      bulletandexplosion_7: -2144462185
+      bulletandexplosion_8: 634771887
+      bulletandexplosion_9: -1422929346
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

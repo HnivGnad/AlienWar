@@ -15,10 +15,13 @@ public class HealthScript : MonoBehaviour {
 
     [SerializeField] AudioSource audioDestroy;
 
+    BossScript bossScript;
+
     void Start() {
         healthPlayer = healthPlayerStart;
         shooting = FindObjectOfType<Shooting>();
         animator = GetComponent<Animator>();
+        bossScript = FindObjectOfType<BossScript>();
     }
     void Update() {
         QuitMainGame();
@@ -26,6 +29,7 @@ public class HealthScript : MonoBehaviour {
     private void OnCollisionEnter2D(Collision2D collision) {
         if (collision.gameObject.CompareTag("Enemy")) {
             healthPlayer -= shooting.GetDamagePlayer();
+            healthPlayer -= bossScript.damageBoss;
         }
     }
     private void OnTriggerEnter2D(Collider2D collision) {
@@ -40,7 +44,7 @@ public class HealthScript : MonoBehaviour {
     
     public void DestroyPlayer() {
         if (healthPlayer <= 0) {
-            animator.SetTrigger("ExplodePlayer");   
+            animator.SetTrigger("ExplodePlayer");
             weaponPlayer.SetActive(false);
             StartCoroutine(EndGame());
         }

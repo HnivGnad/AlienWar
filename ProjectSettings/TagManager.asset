@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Shield
   - BulletEnemy
+  - Boss
   layers:
   - Default
   - TransparentFX

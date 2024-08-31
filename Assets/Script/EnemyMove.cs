@@ -20,7 +20,7 @@ public class EnemyMove : MonoBehaviour {
     void Update() {
         Move();
     }
-    void Move() {
+    public void Move() {
         if (destroy) {
             return;
         }
@@ -47,7 +47,7 @@ public class EnemyMove : MonoBehaviour {
             audioEnemyDestroy.Play();
         }
     }
-    void Explode() {
+    public void Explode() {
         animator.SetTrigger("Explode");
         Destroy(gameObject, 0.5f);
         destroy = true;

@@ -4804,7 +4804,7 @@ PrefabInstance:
       objectReference: {fileID: 324722175}
     - target: {fileID: 1031429973126711991, guid: 1dbdbfd38b9203a48974f48a5b5b8409, type: 3}
       propertyPath: cooldownShoot
-      value: 0
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 1031429974589964309, guid: 1dbdbfd38b9203a48974f48a5b5b8409, type: 3}
       propertyPath: m_Name

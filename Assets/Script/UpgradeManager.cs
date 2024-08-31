@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class UpgradeManager : MonoBehaviour {
+    BulletScript bulletScript;
+
     [SerializeField] AudioSource cantBuy;
     [SerializeField] AudioSource buy;
 
@@ -33,7 +35,10 @@ public class UpgradeManager : MonoBehaviour {
     [SerializeField] float costMultiplier = 2.5f;
 
     float playerMoney;
+    public int countUpgrade;
     void Start() {
+        bulletScript = FindObjectOfType<BulletScript>();
+
         scoreManager = FindObjectOfType<ScoreManagerScript>();
         shooting = FindObjectOfType<Shooting>();
         shieldScript = FindObjectOfType<ShieldScript>();
@@ -71,7 +76,7 @@ public class UpgradeManager : MonoBehaviour {
             costCooldown = Mathf.RoundToInt(costCooldown * costMultiplier);
 
             scoreManager.UpdateScore();
-
+            countUpgrade++;
             buy.Play();
         }
         else {
@@ -87,7 +92,7 @@ public class UpgradeManager : MonoBehaviour {
             costShield = Mathf.RoundToInt(costShield * costMultiplier);
             shieldScript.ShieldRepair();
             scoreManager.UpdateScore();
-
+            countUpgrade++;
             buy.Play();
 
         }

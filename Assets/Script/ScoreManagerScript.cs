@@ -5,13 +5,11 @@ using UnityEngine.UI;
 
 public class ScoreManagerScript : MonoBehaviour
 {
-
     [SerializeField] public int score;
     [SerializeField] Text scoreText;
     void Start() {
         score = 0;
         UpdateScore();
-
     }
     void Update() {
         

@@ -15,11 +15,14 @@ public class BossScript : MonoBehaviour
     float timeBoss = 0f;
 
     PolygonCollider2D polygonCollider;
+    HealthScript healthScript;
 
     [SerializeField] AudioSource bossAudio;
 
     void Start()
     {
+        healthScript = FindObjectOfType<HealthScript>();
+
         countDamage = 0;
         polygonCollider = GetComponent<PolygonCollider2D>();
         polygonCollider.enabled = false;
@@ -41,9 +44,11 @@ public class BossScript : MonoBehaviour
         transform.position = Vector2.MoveTowards(transform.position, target.transform.position, enemySpeed * Time.deltaTime);
     }
     private void OnCollisionEnter2D(Collision2D collision) {
-        if(collision.gameObject.CompareTag("Shield") ||
-           collision.gameObject.CompareTag("Player")) {
+        if(collision.gameObject.CompareTag("Shield")) {
             Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.CompareTag("Player")) {
+            healthScript.DestroyPlayer();
         }
     }
     private void OnTriggerEnter2D(Collider2D collision) {

@@ -8,7 +8,6 @@ public class SpawnEnemy : MonoBehaviour {
     [SerializeField] float timeRate = 5f;
     [SerializeField] float decreaseRate = 0.1f;
     [SerializeField] float minSpawn = 1f;
-    [SerializeField] GameObject bossPrefab;
     float currentTimeRate;
     float timer;
     

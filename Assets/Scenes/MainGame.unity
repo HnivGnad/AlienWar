@@ -3766,7 +3766,7 @@ MonoBehaviour:
   target: {fileID: 1780965998}
   boundTakeDamage: 50
   damageBoss: 200
-  bossSpawn: 250
+  bossSpawn: 200
   bossAudio: {fileID: 1759146883}
 --- !u!1 &1780965998 stripped
 GameObject:
@@ -4173,8 +4173,8 @@ MonoBehaviour:
   - {fileID: 6372331412174355993, guid: 1e6be183080614641a6715b71d06f469, type: 3}
   - {fileID: 7172860832474322954, guid: 8068356e22124244f9100f114986fc6d, type: 3}
   rangeY: 6
-  timeRate: 8
-  decreaseRate: 0.8
+  timeRate: 10
+  decreaseRate: 0.08
   minSpawn: 1
 --- !u!4 &1972819837
 Transform:
